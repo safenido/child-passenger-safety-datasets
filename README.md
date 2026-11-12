@@ -21,12 +21,23 @@ Each dataset has its own repository with a cover, a data dictionary, a method, i
 | 782 seats with height ranges, rear-facing limits, ISOFIX, rotation and Plus Test status | [child-car-seat-specs](https://github.com/safenido/child-car-seat-specs) | [Kaggle](https://www.kaggle.com/datasets/safenido/child-car-seat-specifications-europe) | [Dataset](https://huggingface.co/datasets/safenido/child-car-seat-specs) | [DOI](https://doi.org/10.5281/zenodo.24154408) |
 | 25 recalls of child car seats and ISOFIX bases, 2016-2026, with batches and official sources | [child-car-seat-recalls-europe](https://github.com/safenido/child-car-seat-recalls-europe) | [Kaggle](https://www.kaggle.com/datasets/safenido/child-car-seat-recalls-europe-2016-2026) | [Dataset](https://huggingface.co/datasets/safenido/child-car-seat-recalls-europe) | [DOI](https://doi.org/10.5281/zenodo.24154463) |
 
+## 🔬 Inside The ADAC Tests
+
+| Dataset | GitHub | Kaggle | Hugging Face | Zenodo |
+|---|---|---|---|---|
+| Every ADAC test session since 2007, 39 sessions and 840 seats, with failures and seat types | [adac-child-seat-test-sessions](https://github.com/safenido/adac-child-seat-test-sessions) | [Kaggle](https://www.kaggle.com/datasets/safenido/adac-child-car-seat-test-sessions-2007-2026) | [Dataset](https://huggingface.co/datasets/safenido/adac-child-seat-test-sessions) | [DOI](https://doi.org/10.5281/zenodo.24167071) |
+| 23 ADAC criteria, from front impact to installation, averaged by era and seat type | [adac-child-seat-criteria-statistics](https://github.com/safenido/adac-child-seat-criteria-statistics) | [Kaggle](https://www.kaggle.com/datasets/safenido/adac-child-car-seat-test-criteria-statistics) | [Dataset](https://huggingface.co/datasets/safenido/adac-child-seat-criteria-statistics) | [DOI](https://doi.org/10.5281/zenodo.24167196) |
+| Harmful substances and PFAS in 725 tested seats since 2011 | [harmful-substances-child-car-seats](https://github.com/safenido/harmful-substances-child-car-seats) | [Kaggle](https://www.kaggle.com/datasets/safenido/harmful-substances-in-child-car-seats-2011-2026) | [Dataset](https://huggingface.co/datasets/safenido/harmful-substances-child-car-seats) | [DOI](https://doi.org/10.5281/zenodo.24167260) |
+| The five ADAC test protocols since 2007 and what changed in each | [adac-child-seat-test-protocols](https://github.com/safenido/adac-child-seat-test-protocols) | [Kaggle](https://www.kaggle.com/datasets/safenido/adac-child-car-seat-test-protocols-2007-2026) | [Dataset](https://huggingface.co/datasets/safenido/adac-child-seat-test-protocols) | [DOI](https://doi.org/10.5281/zenodo.24167377) |
+| The same seat sold under two brands, and the model that replaced each old seat | [child-car-seat-twins-and-successors](https://github.com/safenido/child-car-seat-twins-and-successors) | [Kaggle](https://www.kaggle.com/datasets/safenido/child-car-seat-twins-and-successors) | [Dataset](https://huggingface.co/datasets/safenido/child-car-seat-twins-and-successors) | [DOI](https://doi.org/10.5281/zenodo.24167315) |
+
 ## What The Data Says
 
 - **Unrestrained children are 4.3% of the child car passengers involved in French crashes since 2019, but 21.5% of those killed.**
 - **Rear-facing seats score 1.14 on the ADAC front crash, forward-facing seats 2.84** (2020-2024 protocol, lower is better).
 - **Children killed on EU roads fell from 1,703 in 2001 to 376 in 2024.** More than half were passengers.
 - **236 of 782 car seats sold in Europe have no independent crash test published.**
+- **42 seats were rated poor only because of harmful substances in their materials**, while passing the crash part.
 
 ## How The Data Is Checked
 
